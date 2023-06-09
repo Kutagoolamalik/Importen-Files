@@ -1,0 +1,40 @@
+1. connect to vm:-
+
+ ssh -i "sample.pem" ubuntu@ec2-3-110-45-29.ap-south-1.compute.amazonaws.com
+
+
+2. sudo apt update
+
+3. sudo apt install openjdk-17-jre-headless
+
+4. sudo adduser sonarqube
+
+5. sudo wget https://binaries.sonarsource.com/Distribution/sonarqube/sonarqube-9.9.1.69595.zip
+
+6. unzip sonarqube-9.9.1.69595.zip
+
+7. chmod -R 755 sonarqube-9.9.1.69595
+
+8. chown -R sonarqube:sonarqube sonarqube-9.9.1.6959
+
+9. cd sonarqube-9.9.1.69595
+
+10. ls 
+
+11. cd bin 
+
+12. cd linux-x86-64
+
+13. ls --------------- sonar.sh
+
+14. ./sonar.sh  start
+
+15. ./sonar.sh  status
+
+16. netstat -tulnp    
+
+
+
+             website for reference:- https://cloudkul.com/blog/how-to-set-up-sonarqube-on-aws-ubuntu-ec2/
+                
+             youtube link for reference:- https://www.youtube.com/watch?v=Ld4uZpR55FU
