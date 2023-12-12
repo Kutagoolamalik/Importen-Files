@@ -1,0 +1,18 @@
+1. node -v
+
+2. npm -v
+
+3. npx create-react-app react-demo --use-npm
+
+4. open folder --> react-demo --> App.js --> remove header to header insert this 
+
+    <h1> This is my 1st react app </h1>				
+
+5. cd react-demo --> npm start
+
+6. it will show the web app.
+
+
+
+reference link:- https://www.youtube.com/watch?v=-ERWlp828kY
+
